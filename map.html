@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Countries Map</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+
+    <section>
+        <label for="countries">Choose a country:</label>
+        <select id="countries" name="countries">
+            <option value="Egypt">Egypt</option>
+            <option value="Saudi Arabia">Saudi Arabia</option>
+            <option value="canada">canada</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+        </select>
+    </section>
+    <div id="map"></div>
+    <script src="./map.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer></script>
+</body>
+
+</html>
